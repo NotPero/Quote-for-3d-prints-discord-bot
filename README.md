@@ -34,3 +34,18 @@ Each interaction with the bot is carefully managed, with error handling to ensur
 - **Cost Estimation**: Users can get an accurate quote for 3D print jobs based on real-time parameters and materials.
 
 This bot is highly customizable, offering both configuration management and advanced 3D printing cost estimation functionalities, making it a versatile tool for users involved in 3D printing.
+
+
+
+
+## How to Setup
+###Edit the config.json and bot.js
+  In bot.js edit the const clientId = "PUT_YOUR_BOT_CLIENT_ID";
+  client_id: Insert your bot's client ID here.
+  token: Insert your bot's token here (you can find it in the Discord Developer Portal).
+  energy_cost_per_kwh: The cost per kWh of electricity consumed by the bot.
+  machine_power_consumption: The power consumption of the machine (in kW).
+  materials: Define the available materials with their cost per gram.
+
+### npm install
+### node bot.js
