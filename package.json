@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2",
+    "stl-parser": "^0.11.1",
+    "stl-reader": "^3.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "token": "TOKEN",
+  "energy_cost_per_kwh": 0.2,
+  "machine_power_consumption": 0.3,
+  "materials": {
+    "ABS": {
+      "cost_per_gram": 0.05
+    },
+    "PLA": {
+      "cost_per_gram": 0.02
+    },
+    "PETG": {
+      "cost_per_gram": 0.2
+    },
+    "PLA-CF": {
+      "cost_per_gram": 0.08
+    }
+  }
+}
